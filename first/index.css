@@ -1,0 +1,34 @@
+body{
+    background-color: blue;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.left{
+    float: left;
+    width: 15%;
+    height: -webkit-fill-available;    
+    background-color: gray;
+
+}
+
+.right{
+    float: right;
+    width: 15%;
+    height: -webkit-fill-available;    
+    background-color: gray;    
+}
+
+footer{
+    width: 70%;
+    height: 50px;
+    /* margin: 0 auto; */
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    background-color: black;
+}
